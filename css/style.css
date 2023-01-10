@@ -142,11 +142,19 @@ a {
     background-color: var(--blue);
     padding: 14px 0 ;
 }
+.card__icon{
+    width: 100%;
+    font-size: 70px;
+    color: var(--blue);
+}
 
 /* MEDIAQUERY HERO */
 @media screen and (max-width:991px) {
     .card__image ,.card__info{
         flex-basis: 100%;
+    }
+    .card__image{
+        max-width: 250px;
     }
 }
 
