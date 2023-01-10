@@ -115,8 +115,12 @@ a {
     padding: 50px 0;
 }
 .card {
+    text-align: center;
+    justify-content: center;
+    min-height: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-around;
     background-color: var(--lightblue);
     padding: 20px;
     border-radius: 20px;
@@ -156,11 +160,17 @@ a {
     .card__image{
         max-width: 250px;
     }
+    .card{
+        align-content: flex-start;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .hero [class^="col-"] {
         flex-basis: calc(100%);
+    }
+    .button__hero{
+        margin: 0 auto;
     }
 }
 
