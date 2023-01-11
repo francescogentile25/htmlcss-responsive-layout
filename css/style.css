@@ -333,6 +333,8 @@ a {
     background-color: white;
     flex-basis: calc(100% / 3 - 30px);
     padding: 52px 43px 33px 33px ;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -377,12 +379,13 @@ a {
 }
 
 .benefit-button{
-    padding: 20px;
+    text-align: center;
+    max-width: 140px;
+    padding: 10px;
     line-height: 20px;
     color: white;
     background-color: var(--purple);
     border-radius: 20px;
-    min-width: 140px;
 
 }
 /* MEDIAQUERY BENEFITS */
